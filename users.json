@@ -1,0 +1,17 @@
+{ "users": [{
+    "username": "Veruca Salt",
+    "email": "verucas@gmail.com",
+    "verified": "true",
+    "phonenumber": 254723945995
+  }, {
+    "username": "Mark Garvey",
+    "email": "mg@gmail.com",
+    "verified": "true",
+    "phonenumber": 254725645995
+  }, {
+    "username": "Brian Etoo",
+    "email": "etoob@gmail.com",
+    "verified": "true",
+    "phonenumber": 2547239459442
+  }]
+}
