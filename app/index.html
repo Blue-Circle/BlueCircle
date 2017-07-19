@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>BlueCircle</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    {{content-for "head"}}
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css"> {{content-for "head"}}
 
     <link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-    <link rel="stylesheet" href="{{rootURL}}assets/blue-circle.css">
+    <link rel="stylesheet" href="{{rootURL}}assets/blue-circle.css"> {{content-for "head-footer"}}
+</head>
 
-    {{content-for "head-footer"}}
-  </head>
-  <body>
+<body>
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/blue-circle.js"></script>
 
     {{content-for "body-footer"}}
-  </body>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+</body>
+
+
 </html>
