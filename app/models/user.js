@@ -1,11 +1,10 @@
 import DS from 'ember-data';
-import moment from 'moment';
 
 export default DS.Model.extend({
-  firstName: DS.attr(),
-  lastName: DS.attr(),
-  email: DS.attr(),
-  phoneNumber: DS.attr(),
-  createdAt: DS.attr('date', { defaultValue: new Date()}),
-  circles: DS.hasMany('circle',{async:true})
+  username: DS.attr('string'),
+  email: DS.attr('string'),
+  verified:DS.attr('boolean', {defaultValue:false}),
+  phonenumber:DS.attr('number'),
+  circles: DS.hasMany('circle')
+
 });
