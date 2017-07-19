@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'blue-circle',
+    modulePrefix: 'BlueCircle',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
@@ -16,6 +16,14 @@ module.exports = function(environment) {
         Date: false
       }
     },
+
+    firebase: {
+      apiKey: 'AIzaSyAD9Cp2OcpP0NHUM73dvMoT9nEHcWHnkgY',
+      authDomain: 'bluecircle-4fe54.firebaseapp.com',
+      databaseURL: 'https://bluecircle-4fe54.firebaseio.com',
+      storageBucket: 'bluecircle-4fe54.appspot.com'
+    },
+
 
     APP: {
       // Here you can pass flags/options to your application instance
